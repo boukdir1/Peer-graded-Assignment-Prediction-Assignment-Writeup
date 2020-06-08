@@ -1,21 +1,10 @@
-Practical Machine Learning Project
+Practical Machine Learning Development Project
 ==================================
 
 Background
 ----------
 
-Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now
-possible to collect a large amount of data about personal activity
-relatively inexpensively. These type of devices are part of the
-quantified self movement - a group of enthusiasts who take measurements
-about themselves regularly to improve their health, to find patterns in
-their behavior, or because they are tech geeks. One thing that people
-regularly do is quantify how much of a particular activity they do, but
-they rarely quantify how well they do it. In this project, your goal
-will be to use data from accelerometers on the belt, forearm, arm, and
-dumbell of 6 participants. They were asked to perform barbell lifts
-correctly and incorrectly in 5 different ways. More information is
-available from the website here:
+Thanks to devices such as Jawbone Up, and Nike FuelBand and Fitbit, it is ready to go. Possibility of collecting a significant amount of data on personal activity relatively inexpensive. Such devices are part of the quantified self-movement - a committed group of enthusiasts who take action on themselves on a regular basis to improve their health, to find their behavior, because they' re technology geeks. One thing that people regularly is to quantify how much of a particular activity they are engaged in, however They rarely quantify the quality of their work. In that project, your goal is to will be to use accelerometer data on the belt, forearm, arm and dumbell of 6 participants. Participants were invited to perform bar lifts. correctly and incorrectly in 5 different ways. For more information, see available on the website here :
 <http://groupware.les.inf.puc-rio.br/har> (see the section on the Weight
 Lifting Exercise Dataset).
 
@@ -76,9 +65,7 @@ into:
     # testing dataset
     testing.set = training[-inTrain,]
 
-Training and testing data consist of 160 variables. The choice of
-specific predictors is based on removing near zero variance predictors,
-with the nearZeroVar function, and also variables containing many NAs.
+There are 160 variables in the training and testing data. The choice of specific predictors is based on the deletion of near-zero variance predictors, with the nearZeroVar function, and also of variables containing many ANs.
 
     # Remove near zero variance predictors
     ind.nzv = nearZeroVar(x = training, saveMetrics = T)
