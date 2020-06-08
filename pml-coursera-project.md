@@ -1,14 +1,14 @@
-Practical Machine Learning Development Project
+=> Practical Machine Learning Development Project
 ==================================
 
-Background
+=> Background
 ----------
 
 Thanks to devices such as Jawbone Up, and Nike FuelBand and Fitbit, it is ready to go. Possibility of collecting a significant amount of data on personal activity relatively inexpensive. Such devices are part of the quantified self-movement - a committed group of enthusiasts who take action on themselves on a regular basis to improve their health, to find their behavior, because they' re technology geeks. One thing that people regularly is to quantify how much of a particular activity they are engaged in, however They rarely quantify the quality of their work. In that project, your goal is to will be to use accelerometer data on the belt, forearm, arm and dumbell of 6 participants. Participants were invited to perform bar lifts. correctly and incorrectly in 5 different ways. For more information, see available on the website here :
 <http://groupware.les.inf.puc-rio.br/har> (see the section on the Weight
 Lifting Exercise Dataset).
 
-Data
+=> Data
 ----
 
 The training data for this project are available here:
@@ -19,7 +19,7 @@ The test data are available here:
 
 <https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv>
 
-Analysis
+=> Analysis
 ========
 
 Loading data:
